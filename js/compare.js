@@ -58,5 +58,5 @@ function HideCompare(){
 }
 
 function UpdateCompareTable() {
-    
+    // exibir os dados da comparacao da tabela
 }
