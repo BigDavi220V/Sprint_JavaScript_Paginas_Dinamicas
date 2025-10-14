@@ -8,6 +8,11 @@
     <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script src="js/carousel.js"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"
+    />
 </head>
 <body>
     <header>       
@@ -30,13 +35,15 @@
 
     </header>
     <main>
-        <div id="carousel">
-            <img src="./img/imagem_1.jpg" alt="img1" id="new_ranger">
-            <img src="./img/imagem_2.jpg" alt="img2" id="ford_historia">
-            <img src="./img/imagem_3.jpg" alt="img3" id="ford_bronco">
+        <div class="ir_e_voltar">
+            <button id="prev"><i class="ph ph-caret-double-left"></i></button>
+            <div id="carousel"></div>
+            <button id="next"><i class="ph ph-caret-double-right"></i></button>
         </div>
+
         <div id="carousel-title">
         </div>
+
         <script>
             
              //insert each image on carousel

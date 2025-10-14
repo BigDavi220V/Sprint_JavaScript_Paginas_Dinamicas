@@ -17,6 +17,8 @@ div#carousel {
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
+    height: auto;
+    text-align: center;
 }
 
 div#carousel-title a {
@@ -29,6 +31,7 @@ div#carousel-title  {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
+    
 }
 
 header ul {
@@ -83,7 +86,14 @@ nav li {
 main {
     min-height: calc(100% - 167px);
 }
-
+.ir_e_voltar{
+    display: flex;
+    padding: 0 10rem;
+    
+}
+#prev, #next{
+    font-size: xx-large;
+}
 nav#social {
     display: inline;
     width: 80%;
