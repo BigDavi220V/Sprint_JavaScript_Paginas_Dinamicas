@@ -69,10 +69,40 @@ function UpdateCompareTable() {
     const compare_0 = carArr[0];
     const compare_1 = carArr[1];
 
-    document.getElementById("compare_image_0").innerHTML = `<img src="img/${compare_0.image}" alt ="">`;
-    document.getElementById("compare_image_1").innerHTML = `<img src="img/${compare_1.image}" alt ="">`;
+    document.getElementById("compare_image_0").innerHTML = `<img src="${compare_0.image}" alt ="">`;
+    document.getElementById("compare_image_1").innerHTML = `<img src="${compare_1.image}" alt ="">`;
 
     document.getElementById("compare_modelo_0").innerHTML = compare_0.modelo;
     document.getElementById("compare_modelo_1").innerHTML = compare_1.modelo;
+
+    document.getElementById("compare_preco_0").innerHTML = `R$ ${compare_0.preco}`;
+    document.getElementById("compare_preco_1").innerHTML = `R$ ${compare_1.preco}`;
+
+    document.getElementById("compare_alturacacamba_0").innerHTML = `${compare_0.alturaCacamba}`;
+    document.getElementById("compare_alturacacamba_1").innerHTML = `${compare_1.alturaCacamba}`;
+
+    document.getElementById("compare_alturaveiculo_0").innerHTML = `${compare_0.alturaVeiculo}`;
+    document.getElementById("compare_alturaveiculo_1").innerHTML = `${compare_1.alturaVeiculo}`;
+
+    document.getElementById("compare_alturasolo_0").innerHTML = `${compare_0.alturaSolo}`;
+    document.getElementById("compare_alturasolo_1").innerHTML = `${compare_1.alturaSolo}`;
+
+    document.getElementById("compare_capacidadecarga_0").innerHTML = `${compare_0.capacidadeCarga}`;
+    document.getElementById("compare_capacidadecarga_1").innerHTML = `${compare_1.capacidadeCarga}`;
+
+    document.getElementById("compare_motor_0").innerHTML = `${compare_0.motor}`;
+    document.getElementById("compare_motor_1").innerHTML = `${compare_1.motor}`;
+
+    document.getElementById("compare_potencia_0").innerHTML = `${compare_0.potencia}`;
+    document.getElementById("compare_potencia_1").innerHTML = `${compare_1.potencia}`;
+
+    document.getElementById("compare_volumecacamba_0").innerHTML = `${compare_0.volumeCacamba}`;
+    document.getElementById("compare_volumecacamba_1").innerHTML = `${compare_1.volumeCacamba}`;
+
+    document.getElementById("compare_roda_0").innerHTML = `${compare_0.roda}`;
+    document.getElementById("compare_roda_1").innerHTML = `${compare_1.roda}`;
+
+
+
 
 }
