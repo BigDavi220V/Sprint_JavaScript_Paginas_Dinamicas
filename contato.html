@@ -30,14 +30,14 @@
         </nav>
 
     </header>
-    <main>
+    <main id="formulario">
         <div class="forms">
             <div>
                 <img src="img/xls 2.2 diesel.jpg">
             </div>
             <div>
                 <h2 class="titulo">Sobre Você</h2>
-            <form onsubmit="return Post(this);">
+            <form onsubmit="return Post(this);" id="formulario_formulario">
                 <input type="text" name="nome" placeholder="NOME*" class="fordform" required>
                 <input type="text" name="email" placeholder="E-MAIL*" class="fordform" required>
                 <input type="text" name="cpf" placeholder="CPF*" class="fordform" required>
@@ -48,6 +48,22 @@
                     <option>TELEFONE</option>
                     <option>E-MAIL</option>
                 </select>
+                
+                <div id="aviso_lgpd">
+                        <p id="info_lgpd">Os dados serão mantidos em nossa base de dados, só enquanto for desejado por você. 
+                        A qualquer momento, será possível editar ou remover tais dados. 
+                        </p>
+                </div>
+                
+                <div id="lgpd_ckeck">
+                    <input type="checkbox" name="termo" id="confirmar_termo" required>
+                       <p>Li e concordo com os <a href="https://www.ford.com.br/politica-de-privacidade/">Termos e Condições</a></p>
+                </div>
+                
+                <div id="ofertas_check">
+                    <input type="checkbox" name="mensagemDescontos" id="msg_descontos" >
+                          <p>Também quero receber descontos e novidades.</p>
+                </div>
             <button type="submit">Enviar</button>
             </form>
             </div>

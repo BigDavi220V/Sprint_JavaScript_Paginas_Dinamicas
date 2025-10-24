@@ -34,19 +34,59 @@ main div {
 .forms {
     display: block;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  
 }
 
+#formulario_formulario {
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
 h2 {
     text-align: left;
     font-weight: 800;
 }
+
+#aviso_lgpd {
+    display: flex;
+    font-size: 15px;
+    color: #555555;
+    text-align: left;
+    width: 60%;
+    
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+
+#lgpd_ckeck {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    padding: 0.5rem;
+}
+
+#ofertas_check {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem
+}
+
 
 
 button {
     width: 200px;
     height: 40px;
     margin-right: 8px;
-    float: right;
+   
+    align-items: center;
 }
 
 .titulo {
